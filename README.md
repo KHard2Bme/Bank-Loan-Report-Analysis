@@ -16,12 +16,18 @@
 ### Project Overview
 ---
 
-This data analysis project aims to provide insights into the performance of each call center over a one year period; Sept 1, 2020 through Sept 31, 2020 .</b> 
+Bank Loan Analysis  
+---
 
-By analyzing various aspects of the data, I seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.</b> 
+In order to monitor and assess the bank's lending activities and performance, we need to create a comprehensive Bank loan report using <b>Microsoft Excel<b>.
+    
+This report aims at providing insights into key loan-related metrics and their changes over time.</b>
 
-I will also perform Exploratory Data Analysis on the dataset to answer a few questions derived along the way.</b>
+The report will help us make data-driven decisions, track our loan portfolio's health, and identify trends that can inform our lending strategies.</b>
 
+Before we can do this, we must first take a look at the data using <b>Python<b>; data cleaning, wrangling, EDA (Exploratory Data Analysis), and visualization.</b>
+    
+Once completed we will export the dataset as a .csv file and import into Microsoft Excel for report and dashboard creation.</b>
 
 
 
