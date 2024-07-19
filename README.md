@@ -74,6 +74,15 @@ Client wants to have an automated dashboard for year 2020 so that they can have 
               d.) Sentiment
               e.) Reason    
 
+
+
+
+Stakeholder Request: 
+
+- The Marketing Director would like to know detailed customer insights which will help in her marketing strategies to specific customer segments (attract those with very favorable risk profiles).
+
+
+
 ### Data Sources
 ---
 
