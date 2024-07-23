@@ -151,72 +151,38 @@ I will be using <b>Excel</b> to create reports and automated dashboard ( reports
 
 ### Exploratory Data Analysis
 ---
-Questions the client has that can now be answered.
+>note: Questions 1 through 6 are answered in Bank Loan Analysis( Verification of Report ).ipnb notebook.
 
-1. What is the total amount of loan, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) applications?
+Questions the client has that can now be answered:
 
-2. What is the total funded amount of loan, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) applications?
+1. What is the total amount, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) of loan applications?
 
-3. What is the total amount received of loan, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) applications?
+2. What is the total funded amount, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) of loan applications?
 
-4. What is the average interest rate of loan, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) applications?
+3. What is the total amount received, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) of loan applications?
 
-5. What is the average DTI of loan, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) applications?
+4. What is the average interest rate, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) of loan applications?
 
-6. What is the total good and bad loan applications issued? funded amounts, and amounts received?
+5. What is the average DTI, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) of loan applications?
+
+6. What is the total good and bad loan applications issued, funded amounts, and amounts received?
 
 7. We know that the risk classification assigned to a loan represents a customers creditworthiness; higher grades signify lower risk.
    How do loans assigned with a grade of A differ from all the other loans?
 
 8. Within risk classification A, which loan purpose has the largest amount of applications submitted?
 
-9. Within risk classification A, there are loans with a 36 month and 60 month term. What is the distribution of loans by term and is there a difference by interest rate?
+9. Within risk classification A, there are loans with a 36 month and 60 month term. What is the distribution of loans by term and is there a difference in interest rates?
 
 10. Within risk classification A, which home ownership group has the most applications submitted? Which has the lowest interest rate by 36 and 60 month term?
 
-11. Within risk classification A, What are the states each creditor resides in? Which states have the largest percentage of applicants, and out of these which has the lowest interest rate on loans based off those who rent, own a home and own property? 
+11. Within risk classification A, What are the states each creditor resides in? Which states have the largest percentage of applicants, and out of these which has the lowest interest rate on loans based off individuals who rent, have a mortgage and own property? 
 
 
 
 
 
 ## Summary of Findings
-
-Question #1: 
-What is the total number of calls received by call center?
-How many calls were received by each call center and percentage? weekday and weekend?
-
-Question #2: 
-What is the total number of calls received by each channel?
-
-Question #3: 
-Which day of the month received the most calls? The least?
-
-Question #4: 
-Which day of the month received the most negatively ranked calls? Calls ranked as very negative?
-
-Question #5: 
-Of the negatively ranked calls on Sept. 10, which call center received the most calls?
-
-Question #6: 
-Of the very negative ranked calls on Sept. 17, which call center received the most calls?
-
-Question #7: 
-How many total calls are in the Billing Question category?
-How many billing questions make up the negative and very negative categories?
-
-Question #8: 
-How many total calls are ranked as negative and very negative?
-How many negative and very negative calls were received by the Los Angeles/CA call center?
-
-Question #9: 
-What is the total number of calls categorized as below SLA, and how many were received by the Los Angeles/CA call center?
-
-Question #10: 
-Which state has the most calls ranked negative, and what are the top 2 cities?
-Which state has the most calls ranked very negative, amd what are the top 2 cities?
-
-
 
 
 ### Results from Findings
