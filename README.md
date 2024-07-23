@@ -44,35 +44,81 @@ Once completed we will export the dataset as a .csv file and import into Microso
 ### Requirements
 ---
 
-Client wants to have an automated dashboard for year 2020 so that they can have insight on the below requirements:
+Client wants to have an automated dashboard for year 2021 so that they can gather customer insights from the below requirements ( 3 Dashboards created ):
+
+
+DASHBOARD 1: SUMMARY
 
 - Primary KPI:
+1. Total Loan Applications (in addition to showing Month-to-Date (MTD) Loan Applications and Month-over-Month (MoM) changes).
+2. Total Funded Amount (in addition to showing Month-to-Date (MTD) Total Funded Amount and Month-over-Month (MoM) changes).
+3. Total Amount Received (in addition to showing Month-to-Date (MTD) Total Amount Received and Month-over-Month (MoM) changes).
+4. Average Interest Rate (in addition to showing Month-to-Date (MTD) Total average interest rate and Month-over-Month (MoM) changes).
+5. Average Debt-to-Income Ratio (DTI) (in addition to showing  Month-to-Date (MTD) Debt-to-Income and Month-over-Month (MoM) changes).
 
-         a.) Total calls to Call Centers
 
-         b.) Total calls by channel:
-             - Call center  
-             - Chatbot  
-             - Email
-             - Web
+- Good Loan v Bad Loan KPI’s:
+ 
+Good Loan KPIs ( loans with status of 'Fully Paid' and 'Current'):
+1.	Good Loan Application Percentage
+2.  Good Loan Applications
+2.	Good Loan Funded Amount
+3.	Good Loan Total Received Amount
 
-              
-- Secondary KPI:  
+- Bad Loan KPIs ( loans with a status of 'Charged off'):
+1.	Bad Loan Application Percentage
+2.	Bad Loan Applications
+3.	Bad Loan Funded Amount 
+4.	Bad Loan Total Received Amount
 
-              a.) Report showing calls by call center  
-              b.) Report showing calls by sentiment.  
-              c.) Column chart showing reason by sentiment.  
-              d.) Column chart showing response time by call center. 
-              e.) Chart showing total count by reason of call
-              f.) Grid view dashboard allowing stakeholders to search for granular information in dataset and  download if needed.
+- Loan Status Breakdown KPI's:
+1. Loan Applications
+2. Loan Funded Amount
+3. Loan Amount Received
+4. Loan Interest Rate
+5. Loan DTI Ratio
 
-- Filters:
+DASHBOARD 2: OVERVIEW
 
-              a.) Call day
-              b.) Call center
-              c.) Weekday or Weekend
-              d.) Sentiment
-              e.) Reason    
+1. Monthly Trends by Issue Date (Line Chart):
+- Chart Type: Line Chart
+- Objective: This line chart will showcase how submitted loan Applications vary over time, allowing us to identify seasonality and long-term trends in lending activities.
+
+2. Regional Analysis by State (Filled Map):
+- Chart Type: Filled Map
+- Geographic Regions: States
+- Objective: This filled map will visually represent lending metrics categorized by state, enabling us to identify regions with significant lending activity and assess regional disparities.
+
+3. Loan Term Analysis (Donut Chart):
+- Chart Type: Donut Chart
+- Segments: Loan Terms (e.g., 36 months, 60 months)
+- Objective: This donut chart will depict loan statistics based on different loan terms, allowing us to understand the distribution of loans across various term lengths.
+
+4. Employee Length Analysis (Bar Chart):
+- Chart Type: Bar Chart
+- X-Axis: Employee Length Categories (e.g., 1 year, 5 years, 10+ years)
+- Y-Axis: Metrics' Values
+- Objective: This bar chart will illustrate how lending metrics are distributed among borrowers with different employment lengths, helping us assess the impact of employment history on loan applications.
+
+5. Loan Purpose Breakdown (Bar Chart):
+- Chart Type: Bar Chart
+- Objective: This bar chart will provide a visual breakdown of loan metrics based on the stated purposes of loans, aiding in the understanding of the primary reasons borrowers seek financing.
+
+6. Home Ownership Analysis (Tree Map):
+- Chart Type: Tree Map
+- Objective: This tree map will display loan metrics categorized by different home ownership statuses, allowing for a hierarchical view of how home ownership impacts loan applications and disbursements.
+
+DASHBOARD 3: DETAILS
+
+In our Bank Loan Report project, we recognize the need for a comprehensive 'Details Dashboard' that provides a consolidated view of all the essential information within our loan data. This Details Dashboard aims to offer a holistic snapshot of key loan-related metrics and data points, enabling users to access critical information efficiently.
+- Objective:
+The primary objective of the Details Dashboard is to provide a comprehensive and user-friendly interface for accessing vital loan data. It will serve as a one-stop solution for users seeking detailed insights into our loan portfolio, borrower profiles, and loan performance.
+
+FILTERS :
+
+- State
+- Grade
+- Purpose
 
 
 
@@ -85,36 +131,53 @@ Stakeholder Request:
 
 ### Data Sources
 ---
-
-Call Center Data: The primary dataset used for this analysis is the "Call_Center.csv" file obtained from Kaggle which contains fictitious data.
+The primary dataset used for this analysis is the "Financial_loan.csv" file obtained from Kaggle which contains 38,576 rows and 24 columns.
 
 
 ### Tools
 ---
-- <b>pandas, numpy, matplotlib, seaborn.</b> 
+- <b>pandas, numpy, datetime, matplotlib, seaborn.</b> 
 - <b>Microsoft Excel</b>
 
 
 
-I will be using python to clean, process, and analyze the dataset (detailed steps will be shown within the Jupyter Notebook).
+I will be using python to clean, process, and analyze the dataset (detailed steps will be shown within the Jupyter Notebook).</b>
 
-I will be using Excel to create reports and automated dashboard ( reports and dashboard provided in Call_Center.csv file).
+The <b>Bank Loan Analysis(Verification of Report ).ipynb</b> notebook will be used to confirm numeric outcome from each Dashboard field.</b>
+
+I will be using <b>Excel</b> to create reports and automated dashboard ( reports and dashboard provided in Bankloan_data.csv file).</b>
 
       
 
 ### Exploratory Data Analysis
 ---
 Questions the client has that can now be answered.
-1. What is the total number of calls received by call center? How many calls were received by each call center and percentage? weekday and weekend?</b>
-2. What is the total number of calls received by each channel?</b>
-3. Which day of the month received the most calls? The least?</b>
-4. Which day of the month received the most negatively ranked calls? Calls ranked as very negative?</b>
-5. Of the negatively ranked calls on Sept. 10, which call center received the most calls?</b>
-6. Of the very negative ranked calls on Sept. 17, which call center received the most calls?</b>
-7. How many total calls are in the Billing Question category? How many billing questions make up the negative and very negative categories?</b>
-8. How many total calls are ranked as negative and very negative? How many negative and very negative calls were received by the Los Angeles/CA call center?</b>
-9. What is the total number of calls categorized as below SLA, and how many were received by the Los Angeles/CA call center?</b>
-10. Which state has the most calls ranked negative, and what are the top 2 cities? Which state has the most calls ranked very negative, amd what are the top 2 cities?</b>
+
+1. What is the total amount of loan, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) applications?
+
+2. What is the total funded amount of loan, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) applications?
+
+3. What is the total amount received of loan, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) applications?
+
+4. What is the average interest rate of loan, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) applications?
+
+5. What is the average DTI of loan, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) applications?
+
+6. What is the total good and bad loan applications issued? funded amounts, and amounts received?
+
+7. We know that the risk classification assigned to a loan represents a customers creditworthiness; higher grades signify lower risk.
+   How do loans assigned with a grade of A differ from all the other loans?
+
+8. Within risk classification A, which loan purpose has the largest amount of applications submitted?
+
+9. Within risk classification A, there are loans with a 36 month and 60 month term. What is the distribution of loans by term and is there a difference by interest rate?
+
+10. Within risk classification A, which home ownership group has the most applications submitted? Which has the lowest interest rate by 36 and 60 month term?
+
+11. Within risk classification A, What are the states each creditor resides in? Which states have the largest percentage of applicants, and out of these which has the lowest interest rate on loans based off those who rent, own a home and own property? 
+
+
+
 
 
 ## Summary of Findings
