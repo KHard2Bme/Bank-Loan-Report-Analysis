@@ -9,11 +9,11 @@
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Summary of Findings](#summary-of-findings)
 - [Results from Findings](#results-from-findings)
-- [Recommendations](#recommendations)
+  
 
 
 
-### Project Overview
+## Project Overview
 ---
 
 Bank Loan Analysis  
@@ -41,7 +41,7 @@ Once completed we will export the dataset as a .csv file and import into Microso
 
 
 
-### Requirements
+## Requirements
 ---
 
 Client wants to have an automated dashboard for year 2021 so that they can gather customer insights from the below requirements ( 3 Dashboards created ):
@@ -77,6 +77,7 @@ Good Loan KPIs ( loans with status of 'Fully Paid' and 'Current'):
 3. Loan Amount Received
 4. Loan Interest Rate
 5. Loan DTI Ratio
+-----
 
 DASHBOARD 2: OVERVIEW
 
@@ -107,6 +108,7 @@ DASHBOARD 2: OVERVIEW
 6. Home Ownership Analysis (Tree Map):
 - Chart Type: Tree Map
 - Objective: This tree map will display loan metrics categorized by different home ownership statuses, allowing for a hierarchical view of how home ownership impacts loan applications and disbursements.
+-----
 
 DASHBOARD 3: DETAILS
 
@@ -114,13 +116,15 @@ In our Bank Loan Report project, we recognize the need for a comprehensive 'Deta
 - Objective:
 The primary objective of the Details Dashboard is to provide a comprehensive and user-friendly interface for accessing vital loan data. It will serve as a one-stop solution for users seeking detailed insights into our loan portfolio, borrower profiles, and loan performance.
 
+---
+
 FILTERS :
 
 - State
 - Grade
 - Purpose
 
-
+---
 
 
 Stakeholder Request: 
@@ -129,12 +133,12 @@ Stakeholder Request:
 
 
 
-### Data Sources
+## Data Sources
 ---
 The primary dataset used for this analysis is the "Financial_loan.csv" file obtained from Kaggle which contains 38,576 rows and 24 columns.
 
 
-### Tools
+## Tools
 ---
 - <b>pandas, numpy, datetime, matplotlib, seaborn.</b> 
 - <b>Microsoft Excel</b>
@@ -149,7 +153,7 @@ I will be using <b>Excel</b> to create reports and automated dashboard ( reports
 
       
 
-### Exploratory Data Analysis
+## Exploratory Data Analysis
 ---
 >note: Questions 1 through 6 are answered in Bank Loan Analysis( Verification of Report ).ipnb notebook.
 
@@ -183,34 +187,73 @@ Questions the client has that can now be answered:
 
 
 ## Summary of Findings
+Question #1: 
+What is the total amount, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) of loan applications?
+
+Question #2:
+What is the total funded amount, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) of loan applications?
+
+Question #3: 
+What is the total amount received, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) of loan applications?
+
+Question #4: 
+What is the average interest rate, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) of loan applications?
+
+Question #5: 
+What is the average DTI, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) of loan applications?
+
+Question #6: 
+What is the total good and bad loan applications issued, funded amounts, and amounts received?
+
+Question #7: 
+We know that the risk classification assigned to a loan represents a customers creditworthiness; higher grades signify lower risk.
+How do loans assigned with a grade of A differ from all the other loans?
+
+Question #8:
+Within risk classification A, which loan purpose has the largest amount of applications submitted?
+
+Question #9: 
+Within risk classification A, there are loans with a 36 month and 60 month term. What is the distribution of loans by term and is there a difference in interest rates?
+
+Question #10: 
+Within risk classification A, which home ownership group has the most applications submitted? Which has the lowest interest rate by 36 and 60 month term?
+
+Question #11:
+Within risk classification A, What are the states each creditor resides in? Which states have the largest percentage of applicants, and out of these which has the lowest interest rate on loans based off individuals who rent, have a mortgage and own property?
 
 
-### Results from Findings
+## Results from Findings
 ---
 
-The analysis results are summarized as follows:
+ The Marketing Director would like to know detailed customer insights which will help in her marketing strategies to specific customer segments (attract those with very favorable risk profiles).
 
-1.  A large percentage of inbound calls fall within the negative sentiment category, making up roughly 34% of total calls. Of those calls 71% fall within the billing questions reason type, followed by 14% in payments.  
-  This is also true within every call center, having a large percentage of the calls falling within the negative sentiment category as well.
+ What are the customer insights gathered from the financial loan dataset?
 
-2.  Regarding call response time, a large percentage of the total inbound calls fall within the SLA; 63%, but 25% of the calls are below the SLA.
-  
-3. There seems to be a correlation between calls that have a negative sentiment and those falling below the SLA. Most of the calls come in through the call center channel on weekdays, and the reason type is either billing questions or payment. This is the case for all call centers.
+ >note: Keep in mind, we started out with filtering the entire dataset by risk classification A, then by loan purpose debt consolidation, and finally by loan status of fully paid off.
 
-### Recommendations
----
+ ### Customers who have a Mortgage:
+- the average employement length is about 6.3 years
+- the employee title varies from private sector to government firms
+- all loans have a 36 month term
+- the average annual income is about $ 84,300
+- the average DTI ratio is 0.12 percent
+- the interest rate is 0.06 percent 
+- the average loan amount is $7,700
 
-Based on the analysis, we recommend the following actions:
+### Customers who Rent:
+- the average employement length is about 4.4 years
+- the employee title varies within the private sector
+- all loans have a 36 month term
+- the average annual income is about $ 51,538
+- the average DTI ratio is 0.14 percent
+- the interest rate is 0.07 percent 
+- the average loan amount is $10,480
 
-In order to find out the exact issue at hand we will need to first retrieve the audio recordings of each agent who picked up a call at designated call time stamp. We need to listen to each call and determine.
-
-   - was call picked up and placed in queue
-   - how long was the customer waiting in queue/did they hang up while waiting
-   - did the agent answer all questions correctly and appropriately
-   - was the customer satisfied with answer, if not what were next steps
-   - was customer transferred to another Department or Manager for assistance and did that call go through successfully
-   - were questions answered after being transferred.
-
-Once we gather enough data, research the findings and try to understand the trends we can then come to a conclusion as to what the root cause or causes are.
-
-
+- ### Customers who Own property:
+- the average employement length is about 4.7 years
+- the employee title varies within the private sector
+- all loans have a 36 month term
+- the average annual income is about $ 57,520
+- the average DTI ratio is 0.13 percent
+- the interest rate is 0.07 percent 
+- the average loan amount is $8,509.09
