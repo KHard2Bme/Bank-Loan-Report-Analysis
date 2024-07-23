@@ -141,11 +141,11 @@ The primary dataset used for this analysis is the "Financial_loan.csv" file obta
 
 
 
-I will be using python to clean, process, and analyze the dataset (detailed steps will be shown within the Jupyter Notebook).</b>
+I will be using python to clean, process, and analyze the dataset (detailed steps will be shown within the Jupyter Notebook).<br>
 
-The <b>Bank Loan Analysis(Verification of Report ).ipynb</b> notebook will be used to confirm numeric outcome from each Dashboard field.</b>
+The <b>Bank Loan Analysis(Verification of Report ).ipynb</b> notebook will be used to confirm numeric outcome from each Dashboard field.<br>
 
-I will be using <b>Excel</b> to create reports and automated dashboard ( reports and dashboard provided in Bankloan_data.csv file).</b>
+I will be using <b>Excel</b> to create reports and automated dashboard ( reports and dashboard provided in Bankloan_data.csv file).<br>
 
       
 
