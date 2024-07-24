@@ -233,7 +233,7 @@ Within risk classification A, What are the states each creditor resides in? Whic
 
  ### Customers who have a Mortgage:
 - the average employement length is about 6.3 years
-- the employee title varies from private sector to government firms
+- the employee title varies within the financial, government, and insurance sectors
 - all loans have a 36 month term
 - the average annual income is about $ 84,300
 - the average DTI ratio is 0.12 percent
@@ -242,7 +242,7 @@ Within risk classification A, What are the states each creditor resides in? Whic
 
 ### Customers who Rent:
 - the average employement length is about 4.4 years
-- the employee title varies within the private sector
+- the employee title varies within the services, technology, and education sectors
 - all loans have a 36 month term
 - the average annual income is about $ 51,538
 - the average DTI ratio is 0.14 percent
@@ -251,7 +251,7 @@ Within risk classification A, What are the states each creditor resides in? Whic
 
 - ### Customers who Own property:
 - the average employement length is about 4.7 years
-- the employee title varies within the private sector
+- the employee title varies within the services, government and educational sectors
 - all loans have a 36 month term
 - the average annual income is about $ 57,520
 - the average DTI ratio is 0.13 percent
