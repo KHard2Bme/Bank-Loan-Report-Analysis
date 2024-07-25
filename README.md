@@ -155,7 +155,11 @@ I will be using <b>Excel</b> to create reports and automated dashboard ( reports
 
 ## Exploratory Data Analysis
 ---
->note: Questions 1 through 6 are answered in Bank Loan Analysis( Verification of Report ).ipnb notebook.
+>note:  Questions 1 through 6 are answered in Bank Loan Analysis( Verification of Report ).ipnb notebook.
+
+>note:  Questions 7 through 11 are answered in Bank Loan Analysis.ipnb notebook.
+
+
 
 Questions the client has that can now be answered:
 
@@ -215,7 +219,9 @@ What is the average interest rate, Month-To-Date (MTD), and Previous-Month-To-Da
 Question #5: 
 What is the average DTI, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) of loan applications?
 ![5](https://github.com/user-attachments/assets/9dbf33d4-05cb-424d-945a-b1411d23c1ba)
+
 ![5a](https://github.com/user-attachments/assets/cd6c4b2d-6d85-4eac-90cb-c13867404e81)
+
 ![5b](https://github.com/user-attachments/assets/e3a042f4-4ae7-493d-a415-b4ab5baa9471)
 
 
@@ -229,18 +235,21 @@ What is the total good and bad loan applications issued, funded amounts, and amo
 
 Question #7: 
 We know that the risk classification assigned to a loan represents a customers creditworthiness; higher grades signify lower risk.
-How do loans assigned with a grade of A differ from all the other loans?
+How do loans assigned with a grade of A and B differ from all the others?
 
 Question #8:
+What risk classification will customer insights come from and why?
+
+Question #9:
 Within risk classification A, which loan purpose has the largest amount of applications submitted?
 
-Question #9: 
+Question #10: 
 Within risk classification A, there are loans with a 36 month and 60 month term. What is the distribution of loans by term and is there a difference in interest rates?
 
-Question #10: 
+Question #11: 
 Within risk classification A, which home ownership group has the most applications submitted? Which has the lowest interest rate by 36 and 60 month term?
 
-Question #11:
+Question #12:
 Within risk classification A, What are the states each creditor resides in? Which states have the largest percentage of applicants, and out of these which has the lowest interest rate on loans based off individuals who rent, have a mortgage and own property?
 
 
