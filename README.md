@@ -195,7 +195,7 @@ Questions the client has that can now be answered:
 
 
 ## Summary of Findings
-Question #1: 
+### Question #1: 
 What is the total amount, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) of loan applications?
 
 ![1](https://github.com/user-attachments/assets/aa4da9c9-5149-43b4-b819-933424474ec9)
@@ -203,26 +203,26 @@ What is the total amount, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD)
 ![1b](https://github.com/user-attachments/assets/f4dbb757-8523-49ff-b067-a7062de87333)
 
 
-Question #2:
+### Question #2:
 
 What is the total funded amount, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) of loan applications?
 ![2](https://github.com/user-attachments/assets/bd4ac3cb-5fe7-48ad-8ea9-285d687aeb4d)
 ![2a](https://github.com/user-attachments/assets/dca6364c-59d5-45de-a0a3-ba9acdb3d1d6)
 ![2b](https://github.com/user-attachments/assets/d6c99e3f-3f79-402c-a80e-7af9dd9dcfca)
 
-Question #3: 
+### Question #3: 
 What is the total amount received, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) of loan applications?
 ![3](https://github.com/user-attachments/assets/bef4f108-b3ac-4e72-9e01-2b2b531096b4)
 ![3a](https://github.com/user-attachments/assets/49568b6b-49de-43c6-a794-844de54ed4d9)
 ![3b](https://github.com/user-attachments/assets/16f594bc-4195-4f90-bf04-eb68b03aab4a)
 
-Question #4: 
+### Question #4: 
 What is the average interest rate, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) of loan applications?
 ![4](https://github.com/user-attachments/assets/e2dee734-7ffb-435f-8dd6-efb2bb32a858)
 ![4a](https://github.com/user-attachments/assets/6ca0eed8-0307-46c4-ad75-5f3034528576)
 ![4b](https://github.com/user-attachments/assets/6951ca1a-85c7-4179-9587-2e7ff0316c3b)
 
-Question #5: 
+### Question #5: 
 What is the average DTI, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) of loan applications?
 
 ![5](https://github.com/user-attachments/assets/9dbf33d4-05cb-424d-945a-b1411d23c1ba)
@@ -232,7 +232,7 @@ What is the average DTI, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) 
 ![5b](https://github.com/user-attachments/assets/e3a042f4-4ae7-493d-a415-b4ab5baa9471)
 
 
-Question #6: 
+### Question #6: 
 What is the total good and bad loan applications issued, funded amounts, and amounts received?
 ![6](https://github.com/user-attachments/assets/1e4bcc61-b641-4708-9123-285cbf64cedf)
 ![6a](https://github.com/user-attachments/assets/5ce7cf05-eeff-4c09-98af-2c17aae32466)
@@ -240,35 +240,37 @@ What is the total good and bad loan applications issued, funded amounts, and amo
 ![6c](https://github.com/user-attachments/assets/a4508d70-216b-4c9e-af58-045aab22cbc3)
 ![6d](https://github.com/user-attachments/assets/155d1c24-a0fe-4453-9018-a70490869115)
 
-Question #7: 
+### Question #7: 
 What is the distribution of loans by risk classification?
 
-Question #8:
+### Question #8:
  We know that the risk classification assigned to a loan represents a customers creditworthiness; higher grades signify lower risk.
  How do loans assigned a grade of A and B differ from all the others?
 
-Question #9:
+### Question #9:
 Within risk classification A, which loan purpose has the largest amount of applicants, and which has the least?
 
-Question #10: 
+### Question #10: 
 Within risk classification A, which loan purpose has the lowest and highest interest rates within this category?
 
-Question #11: 
+### Question #11: 
 Within risk classification A, there are loans with a 36 and 60 month fixed rate. 
 What is the distribution of loans within each and their differences by interest rate?
 
-Question #12:
+### Question #12:
 Within risk classification A, which home ownership group has the most applications submitted?
 Which has the lowest interest rate for a 36 and 60 month term loan?
 
-Question #13:
+### Question #13:
  What states have applicants who pay a mortgage and have the lowest interest rate and DTI Ratio?
  
-Question #14:
+### Question #14:
  What states have applicants who pay rent and have the lowest interest rate and DTI Ratio?
  
-Question #15:
+### Question #15:
 What states have applicants who own property and have the lowest interest rate and DTI Ratio?
+
+
 
 ## Results from Findings
 ---
