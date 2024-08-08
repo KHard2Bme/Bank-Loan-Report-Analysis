@@ -157,7 +157,7 @@ I will be using <b>Excel</b> to create reports and automated dashboard ( reports
 ---
 >note:  Questions 1 through 6 are answered in Bank Loan Analysis( Verification of Report ).ipnb notebook.
 
->note:  Questions 7 through 11 are answered in Bank Loan Analysis.ipnb notebook.
+>note:  Questions 7 through 15 are answered in Bank Loan Analysis.ipnb notebook.
 
 
 
@@ -175,29 +175,35 @@ Questions the client has that can now be answered:
 
 6. What is the total good and bad loan applications issued, funded amounts, and amounts received?
 
-7. We know that the risk classification assigned to a loan represents a customers creditworthiness; higher grades signify lower risk.
-   How do loans assigned with a grade of A differ from all the other loans?
+7. What is the distribution of loans by risk classification?
 
-8. Within risk classification A, which loan purpose has the largest amount of applications submitted?
+8. We know that the risk classification assigned to a loan represents a customers creditworthiness; higher grades signify lower risk. How do loans assigned a grade of A and B differ from all the others?
 
-9. Within risk classification A, there are loans with a 36 month and 60 month term. What is the distribution of loans by term and is there a difference in interest rates?
+9. Within risk classification A, which loan purpose has the largest amount of applicants, and which has the least?
 
-10. Within risk classification A, which home ownership group has the most applications submitted? Which has the lowest interest rate by 36 and 60 month term?
+10. Within risk classification A, which loan purpose has the lowest and highest interest rates within this category?
 
-11. Within risk classification A, What are the states each creditor resides in? Which states have the largest percentage of applicants, and out of these which has the lowest interest rate on loans based off individuals who rent, have a mortgage and own property? 
+11. Within risk classification A, there are loans with a 36 and 60 month fixed rate. What is the distribution of loans within each and their differences by interest rate?
 
+12. Within risk classification A, which home ownership group has the most applications submitted? Which has the lowest interest rate for a 36 and 60 month term loan?
 
+13. What states have applicants who pay a mortgage and have the lowest interest rate and DTI Ratio?
 
+14. What states have applicants who pay rent and have the lowest interest rate and DTI Ratio?
+
+15. What states have applicants who own property and have the lowest interest rate and DTI Ratio?
 
 
 ## Summary of Findings
 Question #1: 
 What is the total amount, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) of loan applications?
+
 ![1](https://github.com/user-attachments/assets/aa4da9c9-5149-43b4-b819-933424474ec9)
 ![1a](https://github.com/user-attachments/assets/1eb469ba-b87b-48bf-9b18-2a6210d6b532)
 ![1b](https://github.com/user-attachments/assets/f4dbb757-8523-49ff-b067-a7062de87333)
 
-Question #2:![3](https://github.com/user-attachments/assets/e4f8c03c-e29b-4353-8f0b-13bc52e8d255)
+
+Question #2:
 
 What is the total funded amount, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) of loan applications?
 ![2](https://github.com/user-attachments/assets/bd4ac3cb-5fe7-48ad-8ea9-285d687aeb4d)
@@ -218,6 +224,7 @@ What is the average interest rate, Month-To-Date (MTD), and Previous-Month-To-Da
 
 Question #5: 
 What is the average DTI, Month-To-Date (MTD), and Previous-Month-To-Date (PMTD) of loan applications?
+
 ![5](https://github.com/user-attachments/assets/9dbf33d4-05cb-424d-945a-b1411d23c1ba)
 
 ![5a](https://github.com/user-attachments/assets/cd6c4b2d-6d85-4eac-90cb-c13867404e81)
@@ -234,57 +241,83 @@ What is the total good and bad loan applications issued, funded amounts, and amo
 ![6d](https://github.com/user-attachments/assets/155d1c24-a0fe-4453-9018-a70490869115)
 
 Question #7: 
-We know that the risk classification assigned to a loan represents a customers creditworthiness; higher grades signify lower risk.
-How do loans assigned with a grade of A and B differ from all the others?
+What is the distribution of loans by risk classification?
 
 Question #8:
-What risk classification will customer insights come from and why?
+ We know that the risk classification assigned to a loan represents a customers creditworthiness; higher grades signify lower risk.
+ How do loans assigned a grade of A and B differ from all the others?
 
 Question #9:
-Within risk classification A, which loan purpose has the largest amount of applications submitted?
+Within risk classification A, which loan purpose has the largest amount of applicants, and which has the least?
 
 Question #10: 
-Within risk classification A, there are loans with a 36 month and 60 month term. What is the distribution of loans by term and is there a difference in interest rates?
+Within risk classification A, which loan purpose has the lowest and highest interest rates within this category?
 
 Question #11: 
-Within risk classification A, which home ownership group has the most applications submitted? Which has the lowest interest rate by 36 and 60 month term?
+Within risk classification A, there are loans with a 36 and 60 month fixed rate. 
+What is the distribution of loans within each and their differences by interest rate?
 
 Question #12:
-Within risk classification A, What are the states each creditor resides in? Which states have the largest percentage of applicants, and out of these which has the lowest interest rate on loans based off individuals who rent, have a mortgage and own property?
+Within risk classification A, which home ownership group has the most applications submitted?
+Which has the lowest interest rate for a 36 and 60 month term loan?
 
+Question #13:
+ What states have applicants who pay a mortgage and have the lowest interest rate and DTI Ratio?
+ 
+Question #14:
+ What states have applicants who pay rent and have the lowest interest rate and DTI Ratio?
+ 
+Question #15:
+What states have applicants who own property and have the lowest interest rate and DTI Ratio?
 
 ## Results from Findings
 ---
 
- The Marketing Director would like to know detailed customer insights which will help in her marketing strategies to specific customer segments (attract those with very favorable risk profiles).
+Stakeholder Request:
 
- What are the customer insights gathered from the financial loan dataset?
+	The Marketing Director would like to know detailed customer insights which will help in her marketing strategies to specific customer segments (attract those with very favorable risk profiles).
 
- >note: Keep in mind, we started out with filtering the entire dataset by risk classification A, then by loan purpose debt consolidation, and finally by loan status of fully paid off.
+What are a few customer insights from the dataset of applicants who have a mortgage, rent as well as own property?
 
- ### Customers who have a Mortgage:
-- the average employement length is about 6.3 years
-- the employee title varies within the financial, government, and insurance sectors
+
+### Those applicants who have a Mortgage:
+- the average employment length is about 6 years
+- the employee titles vary within the financial, healthcare, insurance, and manufacturing service sectors
 - all loans have a 36 month term
-- the average annual income is about $ 84,300
-- the average DTI ratio is 0.12 percent
-- the interest rate is 0.06 percent 
-- the average loan amount is $7,700
+- the average annual salary is about $ 73,419.37
+- the average DTI ratio is 0.03 percent
+- the interest rate is 0.05 percent 
+- the average loan amount is $ 7,806.94
+- the loan type has a risk classification of A
+- the loan purpose is debt consolidation
+- the loan status is fully paid
+- the applicants reside in 13 states
 
-### Customers who Rent:
-- the average employement length is about 4.4 years
-- the employee title varies within the services, technology, and education sectors
-- all loans have a 36 month term
-- the average annual income is about $ 51,538
-- the average DTI ratio is 0.14 percent
-- the interest rate is 0.07 percent 
-- the average loan amount is $10,480
 
-- ### Customers who Own property:
-- the average employement length is about 4.7 years
-- the employee title varies within the services, government and educational sectors
+### Those applicants who rent :
+- the average employment length is about 5 years
+- the employee titles vary within the Financial, Technology, State agency service sectors
 - all loans have a 36 month term
-- the average annual income is about $ 57,520
-- the average DTI ratio is 0.13 percent
-- the interest rate is 0.07 percent 
-- the average loan amount is $8,509.09
+- the average annual salary is about $ 92,855.56
+- the average DTI ratio is 0.04 percent
+- the interest rate is 0.05 percent 
+- the average loan amount is $7,155.56
+- the loan type has a risk classification of A
+- the loan purpose is debt consolidation
+- the loan status is fully paid
+- the applicants reside in 7 states
+
+### Those applicants who own property :
+- the average employment length is about 5.5 years
+- the employee titles are in the Orthodontics manufacturing and healthcare technology services
+- all loans have a 36 month term
+- the average annual salary is about $69,998.00
+- the average DTI ratio is 0.03 percent
+- the interest rate is 0.05 percent 
+- the average loan amount is $6,900.00
+- the loan type has a risk classification of A
+- the loan purpose is debt consolidation
+- the loan status is fully paid
+- the applicants reside 2 states
+
+
