@@ -9,6 +9,7 @@
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Summary of Findings](#summary-of-findings)
 - [Results from Findings](#results-from-findings)
+- [Stakeholder Request} (#stakeholder-request)
   
 
 
@@ -327,9 +328,10 @@ I was able to focus on obtaining customer insights from loans within debt consol
 
 
 
-Stakeholder Request:
+### Stakeholder Request:
+---
 
-	The Marketing Director would like to know detailed customer insights which will help in her marketing strategies to specific customer segments (attract those with very favorable risk profiles).
+- The Marketing Director would like to know detailed customer insights which will help in her marketing strategies to specific customer segments (attract those with very favorable risk profiles).
 
 What are a few customer insights from the dataset of applicants who have a mortgage, rent as well as own property?
 
@@ -373,5 +375,8 @@ What are a few customer insights from the dataset of applicants who have a mortg
 - the loan purpose is debt consolidation
 - the loan status is fully paid
 - the applicants reside 2 states
+
+
+
 
 
