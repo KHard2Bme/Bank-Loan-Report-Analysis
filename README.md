@@ -27,7 +27,7 @@ The report will help us make data-driven decisions, track our loan portfolio's h
 
 Before we can do this, we must first take a look at the data using Python; data cleaning, wrangling, EDA (Exploratory Data Analysis), and visualization.
 
-Once completed we will export the dataset as a .csv file and import into Microsoft Excel for report and dashboard creation; see below figures A, B, and C.
+Once completed we will export the dataset as a .xlsx file and import into Microsoft Excel for report and dashboard creation; see below figures A, B, and C.
 
 <b>Figure A<b>
 ![summary](https://github.com/KHard2Bme/US_Call_Center_Dashboard_Excel/assets/146769989/878e7299-f50b-4a47-aa4a-10a7f88166cc)
