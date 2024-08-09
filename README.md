@@ -321,7 +321,7 @@ What states have applicants who own property and have the lowest interest rate a
 
 Loans with a risk classification of A have the lowest interest rates within its category, and loan applicants have the lowest DTI ratios overall.
 
-Within risk classification A you have loan type debt consolidation, which is comprised of a majority of the loan applications.
+Within risk classification A you have loan type debt consolidation, which is comprised of a majority pool of applicants.
 
 I was able to focus on obtaining customer insights from loans within debt consolidation; those having been fully paid off, and the results obtained are from the most favorable risk profiles in the country who either have a mortgage, pay rent or own property.
 
