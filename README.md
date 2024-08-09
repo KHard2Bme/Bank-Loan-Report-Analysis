@@ -9,8 +9,7 @@
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Summary of Findings](#summary-of-findings)
 - [Results from Findings](#results-from-findings)
-- [Stakeholder Request} (#stakeholder-request)
-  
+- [Stakeholder Request](#stakeholder-request)
 
 
 
