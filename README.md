@@ -19,11 +19,11 @@
 Bank Loan Analysis  
 ---
     
-In order to monitor and assess the bank's lending activities and performance, we need to create a comprehensive Bank loan report using Microsoft Excel.
+In order to monitor and assess the bank's lending activities and performance, we need to create a comprehensive Bank loan report/dashboard using Microsoft Excel.
     
-This report aims at providing insights into key loan-related metrics and their changes over time.
+This report/dashboard aims at providing insights into key loan-related metrics and their changes over time.
 
-The report will help us make data-driven decisions, track our loan portfolio's health, and identify trends that can inform our lending strategies.
+The report/dashboard will help us make data-driven decisions, track our loan portfolio's health, and identify trends that can inform our lending strategies.
 
 Before we can do this, we must first take a look at the data using Python; data cleaning, wrangling, EDA (Exploratory Data Analysis), and visualization.
 
@@ -50,11 +50,11 @@ Client wants to have an automated dashboard for year 2021 so that they can gathe
 DASHBOARD 1: SUMMARY
 
 - Primary KPI:
-1. Total Loan Applications (in addition to showing Month-to-Date (MTD) Loan Applications and Month-over-Month (MoM) changes).
-2. Total Funded Amount (in addition to showing Month-to-Date (MTD) Total Funded Amount and Month-over-Month (MoM) changes).
-3. Total Amount Received (in addition to showing Month-to-Date (MTD) Total Amount Received and Month-over-Month (MoM) changes).
-4. Average Interest Rate (in addition to showing Month-to-Date (MTD) Total average interest rate and Month-over-Month (MoM) changes).
-5. Average Debt-to-Income Ratio (DTI) (in addition to showing  Month-to-Date (MTD) Debt-to-Income and Month-over-Month (MoM) changes).
+1. Total Loan Applications (also shows Month-to-Date (MTD) Loan Applications and Month-over-Month (MoM) changes).
+2. Total Funded Amount (also shows Month-to-Date (MTD) Total Funded Amount and Month-over-Month (MoM) changes).
+3. Total Amount Received (also shows Month-to-Date (MTD) Total Amount Received and Month-over-Month (MoM) changes).
+4. Average Interest Rate (also shows Month-to-Date (MTD) Total average interest rate and Month-over-Month (MoM) changes).
+5. Average Debt-to-Income Ratio (DTI) (also shows Month-to-Date (MTD) Debt-to-Income and Month-over-Month (MoM) changes).
 
 
 - Good Loan v Bad Loan KPI’s:
@@ -144,12 +144,11 @@ The primary dataset used for this analysis is the "Financial_loan.csv" file obta
 - <b>Microsoft Excel</b>
 
 
-
-I will be using python to clean, process, and analyze the dataset (detailed steps will be shown within the Jupyter Notebook).<br>
-
 The <b>Bank Loan Analysis(Verification of Report ).ipynb</b> notebook will be used to confirm numeric outcome from each Dashboard field.<br>
 
-I will be using <b>Excel</b> to create reports and automated dashboard ( reports and dashboard provided in Bankloan_data.xlsx file).<br>
+The <b>Bank Loan Analysis.ipynb</b> notebook will be used to clean, process, and analyze the dataset.<br>
+
+I will be using <b>Excel</b> to create automated report/dashboard ( reports and dashboard provided in Bankloan_data.xlsx file).<br>
 
       
 
