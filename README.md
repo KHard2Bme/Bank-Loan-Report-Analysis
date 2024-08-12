@@ -19,11 +19,11 @@
 Bank Loan Analysis  
 ---
     
-In order to monitor and assess the bank's lending activities and performance, we need to create a comprehensive Bank loan report/dashboard using Microsoft Excel.
+In order to monitor and assess the bank's lending activities and performance, we need to create a comprehensive Bank loan report using Microsoft Excel.
     
-This report/dashboard aims at providing insights into key loan-related metrics and their changes over time.
+This report aims at providing insights into key loan-related metrics and their changes over time.
 
-The report/dashboard will help us make data-driven decisions, track our loan portfolio's health, and identify trends that can inform our lending strategies.
+The report will help us make data-driven decisions, track our loan portfolio's health, and identify trends that can inform our lending strategies.
 
 Before we can do this, we must first take a look at the data using Python; data cleaning, wrangling, EDA (Exploratory Data Analysis), and visualization.
 
