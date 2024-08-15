@@ -146,7 +146,7 @@ The primary dataset used for this analysis is the "Financial_loan.csv" file obta
 
 The <b>Bank Loan Analysis(Verification of Report ).ipynb</b> notebook will be used to confirm numeric outcome from each Dashboard field.<br>
 
-The <b>Bank Loan Analysis.ipynb</b> notebook will be used to clean, process, and analyze the dataset.<br>
+The <b>Bank Loan Analysis.ipynb</b> notebook will be used to showcase how I cleaned, processed, and analyzed the dataset.<br>
 
 I will be using <b>Excel</b> to create automated report/dashboard ( reports and dashboard provided in Bankloan_data.xlsx file).<br>
 
